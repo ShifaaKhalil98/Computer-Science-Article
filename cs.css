@@ -1,0 +1,138 @@
+#navigation {
+  background-color: rgb(54, 12, 102);
+  overflow: auto;
+  justify-content: space-between;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+}
+body {
+  font-family: sans-serif;
+}
+#banner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.banner img:hover {
+  box-shadow: 5px 5px 3px rgb(159, 92, 236);
+}
+
+.seperator {
+  font-size: 25px;
+  color: white;
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  margin-right: 15px;
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+nav ul li a:hover {
+  color: rgb(54, 12, 102);
+  background-color: white;
+}
+h1 {
+  color: rgb(54, 12, 102);
+  text-align: center;
+  font-size: 50px;
+}
+.dashed {
+  width: fit-content;
+  color: rgb(54, 12, 102);
+  border: 3px dashed rgb(54, 12, 102);
+  padding: 10px;
+  border-radius: 60px;
+  position: sticky;
+  top: 0;
+  margin: auto;
+  margin-top: 25px;
+}
+.eachapart .para {
+  color: rgb(54, 12, 102);
+  background: linear-gradient(white, rgb(239, 235, 243));
+  font-size: 22px;
+  padding: 30px;
+  border-radius: 30px;
+  line-height: 1.4;
+}
+.para img {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.para em {
+  text-decoration: underline;
+}
+
+#facts {
+  color: white;
+  background-color: rgb(54, 12, 102);
+  font-size: 22px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  list-style-position: outside;
+  height: 250px;
+  overflow-y: auto;
+}
+#facts h2,
+#ref h2 {
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#facts ul li {
+  margin-bottom: 10px;
+}
+.para a {
+  color: rgb(54, 12, 102);
+}
+.para a:hover {
+  color: red;
+}
+#ref a:hover {
+  color: red;
+}
+#ref {
+  background-color: rgb(54, 12, 102);
+  margin-right: 30px;
+}
+#ref ul {
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+}
+#ref ul li {
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+#ref ul li a {
+  color: white;
+}
+#lang {
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+#info {
+  text-align: center;
+  color: rgb(54, 12, 102);
+  background: linear-gradient(white, rgb(239, 235, 243));
+  font-size: 22px;
+  padding: 30px;
+  border-radius: 30px;
+  line-height: 1.4;
+}
